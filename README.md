@@ -9,10 +9,18 @@ If you run the sketch a second time with the same text, the font check is skippe
 # Installation
 Place all the fonts you wish to use into one dedicated folder, preferably somewhere easy to reach like Desktop. Fonts *do not* need to be installed on your system, just place the OTF anf TTF files into one folder.
 
-# Edit These Vairables:
+# Edit These Variables:
+```java
 String theWord = "# font chaos !";
 int sizeWidth = 1100;
 int sizeHeight = 800;
 int frameRate = 24;
-String fontFolder = "/Volumes/macOS/Users/disuye/Desktop/Font-Collection/"; // tested OK with 10,000 fonts in one directory
-String projectFolder = "/Volumes/Evo2/processing/fontsmash/"; //
+String fontFolder = "/Volumes/macOS/Users/disuye/Desktop/Font-Collection/";
+String projectFolder = "/Volumes/Evo2/processing/fontsmash/";
+```
+
+# To Do:
+- Morphing between glyphs.
+- Multi line text and paragraphs.
+- A smart way to scale font size & transform placement on screen.
+- Refactor. I'm still a noob.
