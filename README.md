@@ -31,7 +31,7 @@ int sizeWidth = 1100;
 int sizeHeight = 800;
 int frameRate = 24;
 String fontFolder = "/Volumes/macOS/Users/disuye/Desktop/Font-Collection/";
-String projectFolder = "/Volumes/Evo2/processing/fontchaos/";
+String projectFolder = "/Volumes/macOS/Users/disuye/processing/fontchaos/";
 ```
 
 # To Do
