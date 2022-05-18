@@ -36,7 +36,7 @@ void settings() {
 void setup() {
     frameRate(frameRate);
     colorMode(RGB, 1.0);
-    surface.setLocation(2560, 0);
+    surface.setLocation(0, 0);
     surface.setTitle("FontChaos v1.0");
 
 // Create an empty directory called "previous/" to store *.dat files
