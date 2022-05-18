@@ -16,6 +16,8 @@ If you run a sketch again using the same text, the font check routine is skipped
 # Installation
 Fonts *do not* need to be installed on your system. Simply collect all the OTF/TTF fonts you want into a dedicated folder, preferably somewhere easy to reach like your Desktop. Font Chaos will *only* access fonts from that one specific folder.
 
+Written in VSCode. Tested OK in Processing 4.
+
 # Edit These Variables
 ```java
 String theWord = "# font chaos !";
