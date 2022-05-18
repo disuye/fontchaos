@@ -14,7 +14,7 @@ int sizeWidth = 1100;
 int sizeHeight = 800;
 int frameRate = 24;
 String fontFolder = "/Volumes/macOS/Users/disuye/Desktop/Font-Collection/"; // tested OK with 10,000 fonts in one directory
-String projectFolder = "/Volumes/Evo2/processing/fontsmash/";
+String projectFolder = "/Volumes/macOS/Users/disuye/processing/fontchaos/";
 
 File fontDir;
 File [] fontFiles;
