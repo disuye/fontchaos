@@ -7,12 +7,14 @@ Processing animation that displays some text using random fonts for each letter,
 Fonts are not included! You'll have to use your imagination about gathering a collection from somewhere.
 
 # Functionality
-Parses the text into characters, removes duplicates. Checks every font in a specific folder to see if they contain glyphs to display the text. All OK fonts are used in the animation (a list of OK fonts is saved as theWord.DAT), meanwhile fonts missing the required glyphs are ignored. 
+Parses the text into characters, removes duplicates. Checks every font to see if they contain all of the glyphs required to display all the characters.
 
-If you run the sketch a second time using the same text, the font check routine is skipped and the DAT file used instead. Multiple DAT files are created, see the folder named 'previous/'. 
+All fonts deemed OK are used during the animation (a list of OK fonts is saved as theWord.DAT). All fonts missing the required glyphs are ignored. 
+
+If you run a sketch again using the same text, the font check routine is skipped and the DAT file used instead. Much quicker. Multiple DAT files are created, see the folder named 'previous/'. 
 
 # Installation
-Fonts *do not* need to be installed on your system. Simply collect all the OTF/TTF fonts you wish to use into one dedicated folder, preferably somewhere easy to reach like your Desktop. Font Chaos will only access fonts from that one specific folder.
+Fonts *do not* need to be installed on your system. Simply collect all the OTF/TTF fonts you want into a dedicated folder, preferably somewhere easy to reach like your Desktop. Font Chaos will *only* access fonts from that one specific folder.
 
 # Edit These Variables
 ```java
