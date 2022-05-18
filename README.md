@@ -14,9 +14,15 @@ All fonts deemed OK are used during the animation (a list of OK fonts is saved a
 If you run a sketch again using the same text, the font check routine is skipped and the DAT file used instead. Much quicker. Multiple DAT files are created, see the folder named 'previous/'. 
 
 # Installation
-Fonts *do not* need to be installed on your system. Simply collect all the OTF/TTF fonts you want into a dedicated folder, preferably somewhere easy to reach like your Desktop. Font Chaos will *only* access fonts from that one specific folder.
+Fonts *do not* need to be installed on your system. Simply collect all the OTF/TTF fonts you want into a dedicated folder. Font Chaos will *only* access fonts from that one specific folder.
 
-Written in VSCode. Tested OK in Processing 4.
+```java
+String fontFolder = "/Volumes/macOS/Users/disuye/Desktop/Font-Collection/";
+```
+
+Should work anywhere that Processing code can be run. Tested OK in Processing 4. Note: Processing seems to ignore the "\r" character when using print("\r") to overwrite console messages.
+
+100% written in VSCode, thanks to this: (https://marketplace.visualstudio.com/items?itemName=Tobiah.language-pde) 
 
 # Edit These Variables
 ```java
@@ -25,7 +31,7 @@ int sizeWidth = 1100;
 int sizeHeight = 800;
 int frameRate = 24;
 String fontFolder = "/Volumes/macOS/Users/disuye/Desktop/Font-Collection/";
-String projectFolder = "/Volumes/Evo2/processing/fontsmash/";
+String projectFolder = "/Volumes/Evo2/processing/fontchaos/";
 ```
 
 # To Do
