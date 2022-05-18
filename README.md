@@ -1,13 +1,15 @@
 # Font Chaos
 Processing animation that displays some text using random fonts for each letter, each frame.
 
-# Features
-Parses the text into characters and checks every font to see if glyphs exist to display the text. All the OK fonts are used (a list of which is saved as theWord.DAT), meanwhile fonts missing the required glyphs are ignored. 
+![https://github.com/disuye/fontchaos/blob/main/FontChaos.gif](https://github.com/disuye/fontchaos/blob/main/FontChaos.gif "Font Chaos demo GIF")
 
-If you run the sketch a second time with the same text, the font check is skipped and the DAT file used instead. 
+# Functionality
+Parses the text into characters, removes duplicates. Checks every font in a specific folder to see if they contain glyphs to display the text. All OK fonts are used in the animation (a list of OK fonts is saved as theWord.DAT), meanwhile fonts missing the required glyphs are ignored. 
+
+If you run the sketch a second time using the same text, the font check routine is skipped and the DAT file used instead. Multiple DAT files are created, see the folder named 'previous/'. 
 
 # Installation
-Place all the fonts you wish to use into one dedicated folder, preferably somewhere easy to reach like Desktop. Fonts *do not* need to be installed on your system, just place the OTF anf TTF files into one folder.
+Fonts *do not* need to be installed on your system. Simply collect all the OTF/TTF fonts you wish to use into one dedicated folder, preferably somewhere easy to reach like your Desktop. Font Chaos will only access fonts from one specific folder.
 
 # Edit These Variables:
 ```java
